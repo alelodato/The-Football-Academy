@@ -1,0 +1,21 @@
+/*Wildcard Selector*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: aqua;
+}
+
+/*Main Content*/
+main {
+    background-color: chartreuse;
+}
+
+/*Footer*/
+footer {
+    background-color: crimson;
+}
