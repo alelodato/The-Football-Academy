@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/*General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /*Header*/
 header {
     background-color: aqua;
@@ -13,9 +19,11 @@ header {
 /*Main Content*/
 main {
     background-color: chartreuse;
+    flex: 1 0 auto;
 }
 
 /*Footer*/
 footer {
     background-color: crimson;
+
 }
