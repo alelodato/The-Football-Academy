@@ -19,10 +19,31 @@ body {
 }
 /*Header*/
 header {
-    background-color: aqua;
-    font-family: "Bebas Neue", sans-serif;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+
+}
+/*Navbar*/
+nav {
+    position: absolute;
+}
 /*Nav Toggle*/
 #nav-toggle:checked~nav{
     display: block;
