@@ -19,7 +19,7 @@ body {
 }
 /*Header*/
 header {
-    background-color: rgb(21, 209, 21);
+    background: url(/assets/images/Header\ backgorund.avif);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -59,7 +59,7 @@ h1 {
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: rgb(21, 209, 21);
+    background: url(/assets/images/Header\ backgorund.avif)
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -82,9 +82,16 @@ nav {
 }
 /*Main Content*/
 main {
-    background-color:#ffffff;
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*Hero section*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/Main\ background.jpg);
+    position: relative;
 }
 
 /*Footer*/
@@ -92,7 +99,7 @@ footer {
     background-color: rgb(21, 209, 21);
 }
 
-#social-networks {
+#contacts-socials {
     display: flex;
     text-align: center;
     padding: 20 0;
@@ -100,7 +107,7 @@ footer {
     list-style-type: none;
 }
 
-#social-networks i {
+#contacts-socials i {
     font-size: 180%;
     padding: 5%;
     color: #ffffff;
@@ -110,7 +117,7 @@ footer {
 
     nav {
         position: relative;
-        background-color: rgb(21, 209, 21);
+        background: url(/assets/images/Header\ backgorund.avif);
         width: 100%;
         justify-content: end;
         padding: 0 1rem;
@@ -127,6 +134,7 @@ footer {
     h1 {
         font-size: 3rem;
     }
+
 
 
 
