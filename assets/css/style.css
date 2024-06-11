@@ -89,7 +89,20 @@ main {
 /*Footer*/
 footer {
     background-color: crimson;
+}
 
+#social-networks {
+    display: flex;
+    text-align: center;
+    padding: 20 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #ffffff;
 }
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
@@ -114,7 +127,7 @@ footer {
         font-size: 3rem;
     }
 
-    
+
 
 
 
