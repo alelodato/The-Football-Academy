@@ -25,8 +25,10 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
 
 header a {
     text-decoration: none;
@@ -63,11 +65,25 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 /*Main Content*/
 main {
     background-color: chartreuse;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
@@ -75,3 +91,25 @@ footer {
     background-color: crimson;
 
 }
+/*Media query for tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+
+    nav {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        right: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: block;
+        top: 100%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+
+}
+    
