@@ -15,11 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Urbanist", sans-serif;
-    
+
 }
+
 /*Header*/
 header {
-    background: url(/assets/images/Header\ backgorund.avif);
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -28,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    }
+}
 
 header a {
     text-decoration: none;
@@ -39,7 +40,8 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: rgb(9, 90, 9);
+    
 }
 
 #menu {
@@ -52,24 +54,24 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid rgb(9, 90, 9);
 }
 
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background: url(/assets/images/Header\ backgorund.avif)
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    color: #ffffff;
+    color: rgb(9, 90, 9);
 }
 
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -80,6 +82,11 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+.nav-toggle-label i {
+    color: rgb(9, 90, 9);
+}
+
 /*Main Content*/
 main {
     flex: 1 0 auto;
@@ -87,16 +94,16 @@ main {
 }
 
 /*Hero section*/
-#hero{
+#hero {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/Main\ background.jpg);
+    background: url(/assets/images/Header\ backgorund.avif);
     position: relative;
 }
 
 /*Footer*/
 footer {
-    background-color: rgb(21, 209, 21);
+    background-color: #ffffff;
 }
 
 #contacts-socials {
@@ -110,14 +117,15 @@ footer {
 #contacts-socials i {
     font-size: 180%;
     padding: 5%;
-    color: #ffffff;
+    color: rgb(9, 90, 9);
 }
+
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
 
     nav {
         position: relative;
-        background: url(/assets/images/Header\ backgorund.avif);
+        background-color: #ffffff;
         width: 100%;
         justify-content: end;
         padding: 0 1rem;
@@ -141,4 +149,3 @@ footer {
 
 
 }
-    
