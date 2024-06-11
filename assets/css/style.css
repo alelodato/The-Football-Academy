@@ -19,7 +19,7 @@ body {
 }
 /*Header*/
 header {
-    background-color: #ffffff;
+    background-color: rgb(21, 209, 21);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -39,7 +39,7 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 #menu {
@@ -53,19 +53,20 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ffffff;
 }
 
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgb(21, 209, 21);
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    color: #ffffff;
 }
 
 #nav-toggle:checked~nav{
@@ -81,14 +82,14 @@ nav {
 }
 /*Main Content*/
 main {
-    background-color: chartreuse;
+    background-color:#ffffff;
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /*Footer*/
 footer {
-    background-color: crimson;
+    background-color: rgb(21, 209, 21);
 }
 
 #social-networks {
@@ -109,7 +110,7 @@ footer {
 
     nav {
         position: relative;
-        background-color: #ffffff;
+        background-color: rgb(21, 209, 21);
         width: 100%;
         justify-content: end;
         padding: 0 1rem;
