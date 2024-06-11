@@ -95,19 +95,26 @@ footer {
 @media screen and (min-width:768px) {
 
     nav {
-        position: absolute;
+        position: relative;
         background-color: #ffffff;
         width: 100%;
-        right: 0;
+        justify-content: end;
         padding: 0 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: block;
+        box-shadow: 0 0 #3a3a3a;
+        display: flex;
         top: 100%;
+        margin-bottom: auto;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    
 
 
 
