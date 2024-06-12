@@ -180,6 +180,10 @@ footer {
         font-size: 3rem;
     }
 
+    #hero {
+        height: 115vh;
+    }
+
     #cover-text {
         top: 150px;
         max-width: 45%;
