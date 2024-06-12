@@ -157,10 +157,6 @@ footer {
     padding: 5%;
     color: rgb(9, 90, 9);
 }
-
-#reasons {
-    color: #3a3a3a;
-}
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
 
@@ -198,6 +194,23 @@ footer {
 
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width:992px) {
+
+    h1{
+        font-size: 5rem;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+    #menu{
+        font-size: 90%;
+    }
+
+    #hero {
+        height: 135vh;
+    }
+
     #cover-text {
         top: 150px;
         max-width: 35%;
