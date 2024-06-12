@@ -123,9 +123,21 @@ main {
     text-transform: uppercase;
 }
 
+/*Reasons Section*/
+
 #reasons {
-    margin: 20px auto;
-    width: 90%;
+    width: 100%;
+    background: url(../images/Header-image.jpg) no-repeat center center/cover;
+}
+
+video {
+    width: 100%;
+}
+
+#reasons > h2 {
+    text-align: center;
+    font-size: 110%;
+    text-transform: uppercase;
 }
 
 #reasons>h5 {
@@ -135,8 +147,11 @@ main {
 
 #reasons>h2,
 #reasons>h5 {
-    color: #000000;
+    color: #ffffff;
 }
+
+
+
 
 /*Footer*/
 footer {
