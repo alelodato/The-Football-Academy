@@ -20,7 +20,7 @@ body {
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    background: url(../images/Header-image.jpg) no-repeat center center/cover;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -39,8 +39,8 @@ header a {
 h1 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(9, 90, 9);
+    letter-spacing: 3px;
+    color: #ffffff;
 
 }
 
@@ -56,19 +56,18 @@ h1 {
 
 
 .active {
-    border-bottom: 1px solid rgb(9, 90, 9);
+    border-bottom: 1px solid #ffffff;
 }
 
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     display: none;
     top: 100%;
-    color: rgb(9, 90, 9);
+    color:#ffffff;
 }
 
 #nav-toggle:checked~nav {
@@ -84,7 +83,7 @@ nav {
 }
 
 .nav-toggle-label i {
-    color: rgb(9, 90, 9);
+    color:#ffffff;
 }
 
 /*Main Content*/
@@ -162,7 +161,6 @@ footer {
 
     nav {
         position: relative;
-        background-color: #ffffff;
         width: 100%;
         justify-content: end;
         padding: 0 1rem;
@@ -174,6 +172,10 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
     }
 
     h1 {
@@ -209,6 +211,10 @@ footer {
 
     #menu{
         font-size: 90%;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
     }
 
     #hero {
