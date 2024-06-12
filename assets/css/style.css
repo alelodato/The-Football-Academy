@@ -136,7 +136,7 @@ main {
 
 #reasons>h2,
 #reasons>h5 {
-    color: #ffffff;
+    color: #000000;
 }
 
 /*Footer*/
@@ -158,6 +158,9 @@ footer {
     color: rgb(9, 90, 9);
 }
 
+#reasons {
+    color: #3a3a3a;
+}
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
 
@@ -207,9 +210,5 @@ footer {
     #cover-text > h5 {
         padding: 4px;
         display: flex;
-    }
-
-    #cover-text > #station {
-        flex-direction: column;
     }
 }
