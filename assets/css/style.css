@@ -127,7 +127,7 @@ main {
 
 #reasons {
     width: 100%;
-    background: url(../images/Header-image.jpg) no-repeat center center/cover;
+    background: url(../images/Reasons-Background-image.jpg) no-repeat center center/cover;
 }
 
 video {
@@ -138,6 +138,8 @@ video {
     text-align: center;
     font-size: 110%;
     text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
 }
 
 #reasons>h5 {
