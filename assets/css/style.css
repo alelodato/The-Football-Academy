@@ -136,24 +136,42 @@ video {
 
 #reasons > h2 {
     text-align: center;
-    font-size: 110%;
+    font-size: 130%;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    color: #ffffff;
 }
 
-#reasons>h5 {
+#reasons-cover-text {
+    background-color: rgba(52, 139, 12, 0.616);
+    height: 100%;
+}
+
+#pitch-experience i {
+    padding: 5%;
+    font-size: 110%;
+}
+
+#pro-awards i{
+    padding: 5%;
+    font-size: 110%;
+}
+
+#pitch-experience, #pro-awards {
+    color: #ffffff;
+    font-size: 150%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#reasons>h2,
-#reasons>h5 {
-    color: #ffffff;
+#pitches,#expericence, #pro, #awards {
+    padding: 0px 10px;
 }
 
-
-
+#pro-awards {
+    margin: 0;
+}
 
 /*Footer*/
 footer {
