@@ -125,9 +125,11 @@ main {
 
 /*Reasons Section*/
 
+#reasons-trial {
+    background: url(../images/Reasons-Background-image.jpg) no-repeat center center/cover;
+}
 #reasons {
     width: 100%;
-    background: url(../images/Reasons-Background-image.jpg) no-repeat center center/cover;
 }
 
 video {
@@ -143,7 +145,7 @@ video {
     color: #ffffff;
 }
 
-#reasons-cover-text {
+#reasons-trial-map-cover-text {
     background-color: rgba(52, 139, 12, 0.616);
     height: 100%;
 }
@@ -189,6 +191,36 @@ hr {
 
 #pitch-experience,#pro h5 {
     text-align: center;
+}
+
+/*Trial Button Section*/
+#trial {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#trial {
+    text-align: center;
+}
+
+#trial h3 {
+    font-size: 110%;
+}
+
+#map h3{
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding:15px 15px 0px 15px;
+    font-size: 105%;
+}
+
+#trial button{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
 /*Footer*/
@@ -245,6 +277,20 @@ footer {
         font-size: 150%;
     }
 
+    #reasons > h2 {
+        font-size: 350%;
+    }
+
+    #pitch-experience h5 {
+        text-align: left;
+        font-size: 250%;
+    }
+
+    #pro-awards h5 {
+        text-align: right;
+        font-size: 250%;
+    }
+
 
 
 
@@ -286,5 +332,19 @@ footer {
     #cover-text > h5 {
         padding: 4px;
         display: flex;
+    }
+
+    #pitch-experience p {
+        font-size: 200%;
+        text-align: left;
+    }
+
+    #pro-awards p {
+        font-size: 200%;
+        text-align: right;
+    }
+
+    #pitch-experience, #pro-awards {
+        margin-bottom: 15px;
     }
 }
