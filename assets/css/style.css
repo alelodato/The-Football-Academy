@@ -283,13 +283,15 @@ footer {
 
     #pitch-experience h5 {
         text-align: left;
-        font-size: 250%;
+        font-size: 200%;
     }
 
     #pro-awards h5 {
         text-align: right;
-        font-size: 250%;
+        font-size: 200%;
     }
+
+
 
 
 
@@ -346,5 +348,17 @@ footer {
 
     #pitch-experience, #pro-awards {
         margin-bottom: 15px;
+    }
+
+    #trial h3 {
+        font-size: 200%;
+    }
+
+    #map h3 {
+        font-size: 200%;
+    }
+
+    #trial {
+        padding: 15px 15 px 0 15px;
     }
 }
