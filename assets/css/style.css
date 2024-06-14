@@ -96,7 +96,7 @@ main {
 /*Hero Section*/
 #hero {
     background: url("../images/Main-background.jpg") no-repeat center center/cover;
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 
@@ -130,6 +130,7 @@ main {
 }
 #reasons {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 video {
@@ -194,18 +195,27 @@ hr {
 }
 
 /*Trial Button Section*/
-#trial {
-    color: #ffffff;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
-#trial {
+#trial-button {
     text-align: center;
 }
 
-#trial h3 {
-    font-size: 110%;
+.free-training-button {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ff1010;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.free-training-button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 180%;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    
 }
 
 #map h3{
@@ -214,18 +224,12 @@ hr {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding:15px 15px 0px 15px;
-    font-size: 105%;
-}
-
-#trial button{
-    width: 80px;
-    height: 40px;
-    margin-bottom: 10px;
+    font-size: 120%;
 }
 
 /*Footer*/
 footer {
-    background-color: #ffffff;
+    background: url(../images/Header-image.jpg) no-repeat center center/cover;
 }
 
 #contacts-socials {
@@ -239,7 +243,7 @@ footer {
 #contacts-socials i {
     font-size: 180%;
     padding: 5%;
-    color: rgb(9, 90, 9);
+    color: #ffffff;
 }
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
@@ -350,15 +354,8 @@ footer {
         margin-bottom: 15px;
     }
 
-    #trial h3 {
-        font-size: 200%;
-    }
-
     #map h3 {
         font-size: 200%;
     }
 
-    #trial {
-        padding: 15px 15 px 0 15px;
-    }
 }
