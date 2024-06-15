@@ -67,11 +67,12 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 #nav-toggle:checked~nav {
     display: block;
+    background-color: rgb(48 114 18);
 }
 
 #nav-toggle {
@@ -83,14 +84,14 @@ nav {
 }
 
 .nav-toggle-label i {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 /*Main Content*/
 main {
     flex: 1 0 auto;
     margin-top: 47px;
-    
+
 }
 
 /*Hero Section*/
@@ -128,6 +129,7 @@ main {
 #reasons-trial {
     background: url(../images/Reasons-Background-image.jpg) no-repeat center center/cover;
 }
+
 #reasons {
     width: 100%;
     margin-bottom: 20px;
@@ -137,7 +139,7 @@ video {
     width: 100%;
 }
 
-#reasons > h2 {
+#reasons>h2 {
     text-align: center;
     font-size: 130%;
     text-transform: uppercase;
@@ -156,31 +158,33 @@ video {
     font-size: 130%;
 }
 
-#pro-awards i{
+#pro-awards i {
     padding-top: 5%;
     font-size: 130%;
 }
 
-#pitch-experience, #pro-awards {
+#pitch-experience,
+#pro-awards {
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#pitch-experience > div {
+#pitch-experience>div {
     margin-bottom: 20px;
     padding: 0 20px;
 }
 
-#pro-awards > div {
+#pro-awards>div {
     padding: 0 20px 20px;
 }
 
-#pitch-experience, #pro-awards > h5{
+#pitch-experience,
+#pro-awards>h5 {
     font-size: 100%;
 }
 
-#reasons-cover-text  p {
+#reasons-cover-text p {
     font-size: 85%;
     padding: 0 20px;
 }
@@ -190,7 +194,8 @@ hr {
     margin: 5px 0;
 }
 
-#pitch-experience,#pro h5 {
+#pitch-experience,
+#pro h5 {
     text-align: center;
 }
 
@@ -209,22 +214,23 @@ hr {
     margin-bottom: 20px;
 }
 
-.free-training-button a{
+.free-training-button a {
     text-decoration: none;
     color: #ffffff;
     font-size: 180%;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
-    
+
 }
 
-#map h3{
+#map h3 {
     text-align: center;
     color: #ffffff;
-    letter-spacing: 1px;
+    padding: 15px 15px 0px 15px;
+    font-size: 160%;
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    padding:15px 15px 0px 15px;
-    font-size: 120%;
+    letter-spacing: 3px;
 }
 
 /*Footer*/
@@ -245,8 +251,24 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
+
+/*Media query for large or landscape phones (570px and up)*/
+@media screen and (min-width:570px) {
+
+    #map h3 {
+        font-size: 200%;
+    }
+
+
+}
+
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
+
+    h1 {
+        font-size: 4rem;
+        width: 120%;
+    }
 
     nav {
         position: relative;
@@ -254,9 +276,15 @@ footer {
         justify-content: end;
         padding: 0 1rem;
         box-shadow: 0 0 #3a3a3a;
-        display: flex;
         top: 100%;
         margin-bottom: auto;
+        display: flex;
+        font-size: 125%;
+    }
+
+    #menu {
+        font-size: 125%;
+        text-align: left;
     }
 
     .nav-toggle-label {
@@ -268,30 +296,43 @@ footer {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     #hero {
         height: 115vh;
+        margin-top: 10vh;
     }
 
     #cover-text {
-        top: 150px;
+        top: 200px;
         max-width: 45%;
-        font-size: 150%;
+        font-size: 180%;
     }
 
-    #reasons > h2 {
-        font-size: 350%;
+    #reasons>h2 {
+        font-size: 5rem;
     }
 
     #pitch-experience h5 {
         text-align: left;
-        font-size: 200%;
+        font-size: 150%;
     }
 
     #pro-awards h5 {
         text-align: right;
+        font-size: 150%;
+    }
+
+    #pitch-experience p {
+        font-size: 100%;
+    }
+
+    #pro-awards p {
+        font-size: 100%;
+    }
+
+    #map h3 {
         font-size: 200%;
     }
 
@@ -306,15 +347,94 @@ footer {
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width:992px) {
 
-    h1{
+    header a {
+        width: 60%;
+    }
+
+    h1 {
         font-size: 5rem;
+        width: 65%;
+    }
+
+    nav {
+        width: 40%;
+    }
+
+    #menu {
+        font-size: 150%;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #hero {
+        height: 135vh;
+    }
+
+    #cover-text {
+        top: 150px;
+        max-width: 65%;
+        margin-top: 150px;
+        font-size: 280%;
+    }
+
+    #cover-text>h4 {
+        font-size: 125%;
+    }
+
+    #cover-text>h5 {
+        padding: 4px;
+        display: flex;
+    }
+
+    #reasons h2 {
+        font-size: 4rem;
+    }
+
+    #pitch-experience p {
+        font-size: 200%;
+        text-align: left;
+    }
+
+    #pro-awards p {
+        font-size: 200%;
+        text-align: right;
+    }
+
+    #pitch-experience,#pro-awards {
+        margin-bottom: 15px;
+    }
+
+    .free-training-button {
+        width: 500px;
+        height: 100px;
+    }
+
+    .free-training-button a{
+        font-size: 280%;
+    }
+
+
+    #map h3 {
+        font-size: 5rem;
+    }
+
+}
+
+/*Media query for computers,large laptops and upwards (1200px and higher)*/
+@media screen and (min-width:1200px) {
+
+    h1 {
+        font-size: 7rem;
+        width: 200%;
     }
 
     nav {
         width: 20%;
     }
 
-    #menu{
+    #menu {
         font-size: 90%;
     }
 
@@ -331,11 +451,11 @@ footer {
         max-width: 35%;
     }
 
-    #cover-text > h4 {
+    #cover-text>h4 {
         font-size: 125%;
     }
-    
-    #cover-text > h5 {
+
+    #cover-text>h5 {
         padding: 4px;
         display: flex;
     }
@@ -350,7 +470,8 @@ footer {
         text-align: right;
     }
 
-    #pitch-experience, #pro-awards {
+    #pitch-experience,
+    #pro-awards {
         margin-bottom: 15px;
     }
 
