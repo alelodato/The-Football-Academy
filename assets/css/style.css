@@ -93,6 +93,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+    overflow: scroll;
 
 }
 
@@ -286,17 +287,16 @@ footer {
 
 #training-hero {
     background: url(../images/Main-background.jpg) no-repeat center center/cover;
-    height: 1000px;
+    height: 100%;
     width: 100%;
 }
 
 #training-cover-text {
     background-color: rgba(193, 24, 21, 0.9);
     font-size: 110%;
-    position: absolute;
     width: 90%;
     padding: 5px 5px;
-    margin: 20px 20px;
+    margin: 0 20px 20px;
 }
 
 #training-cover-text h2 {
@@ -343,6 +343,29 @@ footer {
 
 #under8,#under11,#under13 {
     padding: 5px 5px;
+}
+
+/*Button*/
+#training-page-trial-button {
+    text-align: center;
+}
+
+.free-training-button2 {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ff1010;
+    border: none;
+    margin: 0 0 20px;
+}
+
+.free-training-button2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 180%;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+
 }
 
 /*Media query for large or landscape phones (570px and up)*/
