@@ -289,7 +289,7 @@ footer {
 }
 
 #training-cover-text {
-    background-color: rgba(193, 24, 21, 0.7);
+    background-color: rgba(193, 24, 21, 0.9);
     font-size: 110%;
     position: absolute;
     width: 90%;
@@ -308,6 +308,11 @@ footer {
     letter-spacing: 3px;
 }
 
+#training-cover-text hr {
+    border-top: 1px solid #ffffff;
+    margin: 2px 0;
+}
+
 #training-cover-text p {
     color: #ffffff;
     padding: 5px;
@@ -315,6 +320,29 @@ footer {
     text-transform: uppercase;
     font-size: 80%;
     padding: 5px;
+}
+
+#training-cover-text h3 {
+    color: #ffffff;
+    padding: 5px;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 5px;
+}
+
+#training-cover-text h5 {
+    color: #ffffff;
+    padding: 5px;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    font-size: 80%;
+    padding: 5px;
+}
+
+#under8-times-prices hr{
+    border-left: 1px solid #ffffff;
+    margin: 2px 0;
 }
 
 
