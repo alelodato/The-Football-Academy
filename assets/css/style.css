@@ -93,8 +93,6 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
-    overflow: scroll;
-
 }
 
 /*Hero Section*/
@@ -465,6 +463,24 @@ footer {
         font-size: 150%;
     }
 
+    /*Training Page*/
+    #training-cover-text {
+        margin: 91px 35px 20px;
+    }
+
+    #training-hero {
+        height: 95vh;
+    }
+
+    .free-training-button2 {
+        width: 500px;
+        height: 80px;
+    }
+
+    .free-training-button2 a {
+        font-size: 250%;
+    }
+
 
 
 
@@ -558,6 +574,32 @@ footer {
         font-size: 200%;
     }
 
+    /*Training Page*/
+
+    main {
+        overflow-y: scroll;
+    }
+
+    #training-cover-text {
+        margin: 165px 35px 20px;
+    }
+
+    #training-cover-text {
+        font-size: 170%;
+    }
+
+    #training-hero {
+        height: 100%;
+    }
+
+    .free-training-button2 {
+        width: 700px;
+        height: 120px;
+    }
+
+    .free-training-button2 a {
+        font-size: 350%;
+    }
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
