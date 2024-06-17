@@ -233,12 +233,39 @@ hr {
     letter-spacing: 3px;
 }
 
+#contacts {
+    background: url(../images/Header-image.jpg) no-repeat center center/cover;
+    list-style-type: none;
+    
+}
+
+#contacts i {
+    color: #ffffff;
+    font-size: 150%;
+    padding: 5px;
+}
+
+#contacts li {
+    color: #ffffff;
+    padding: 5px;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+    padding: 10px;
+}
+
+#contacts-cover-text {
+    background-color: rgba(52, 139, 12, 0.616);
+    height: 100%;
+}
 /*Footer*/
 footer {
     background: url(../images/Header-image.jpg) no-repeat center center/cover;
+    box-shadow: 2px 0 0 2px #3a3a3a;
+    padding: 10px;
 }
 
-#contacts-socials {
+#socials {
     display: flex;
     text-align: center;
     padding: 20 0;
@@ -246,7 +273,7 @@ footer {
     list-style-type: none;
 }
 
-#contacts-socials i {
+#socials i {
     font-size: 180%;
     padding: 5%;
     color: #ffffff;
@@ -266,7 +293,7 @@ footer {
 @media screen and (min-width:768px) {
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         width: 120%;
     }
 
@@ -283,7 +310,7 @@ footer {
     }
 
     #menu {
-        font-size: 125%;
+        font-size: 130%;
         text-align: left;
     }
 
@@ -295,13 +322,9 @@ footer {
         border-bottom: 1px solid #ffffff;
     }
 
-    h1 {
-        font-size: 4rem;
-    }
-
     #hero {
         height: 115vh;
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
 
     #cover-text {
@@ -344,7 +367,14 @@ footer {
     .free-training-button a {
         font-size: 220%;
     }
+    
+    #contacts {
+        font-size: 150%;
+    }
 
+    #socials {
+        font-size: 150%;
+    }
 
 
 
@@ -379,6 +409,7 @@ footer {
 
     #hero {
         height: 135vh;
+        margin-top: 150px;
     }
 
     #cover-text {
@@ -429,6 +460,14 @@ footer {
         font-size: 5rem;
     }
 
+    #contacts {
+        font-size: 200%;
+    }
+
+    #socials {
+        font-size: 200%;
+    }
+
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
@@ -444,7 +483,7 @@ footer {
     }
 
     #menu {
-        font-size: 90%;
+        font-size: 110%;
     }
 
     #menu a:hover {
@@ -453,11 +492,12 @@ footer {
 
     #hero {
         height: 135vh;
+        margin-top: 100px;
     }
 
     #cover-text {
         top: 150px;
-        max-width: 35%;
+        max-width: 45%;
     }
 
     #cover-text>h4 {
