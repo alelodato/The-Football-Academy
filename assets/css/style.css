@@ -311,29 +311,38 @@ footer {
     }
 
     #reasons>h2 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     #pitch-experience h5 {
         text-align: left;
-        font-size: 150%;
+        font-size: 190%;
     }
 
     #pro-awards h5 {
         text-align: right;
-        font-size: 150%;
+        font-size: 190%;
     }
 
     #pitch-experience p {
-        font-size: 100%;
+        font-size: 160%;
     }
 
     #pro-awards p {
-        font-size: 100%;
+        font-size: 160%;
     }
 
     #map h3 {
-        font-size: 200%;
+        font-size: 3rem;
+    }
+
+    .free-training-button {
+        width: 400px;
+        height: 100px;
+    }
+
+    .free-training-button a {
+        font-size: 220%;
     }
 
 
@@ -476,7 +485,7 @@ footer {
     }
 
     #map h3 {
-        font-size: 200%;
+        font-size: 5rem%;
     }
 
 }
