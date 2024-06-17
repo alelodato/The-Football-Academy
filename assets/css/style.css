@@ -18,6 +18,8 @@ body {
 
 }
 
+/*Home Page*/
+
 /*Header*/
 header {
     background: url(../images/Header-image.jpg) no-repeat center center/cover;
@@ -293,9 +295,8 @@ footer {
     font-size: 110%;
     position: absolute;
     width: 90%;
-    height: 145%;
     padding: 5px 5px;
-    margin: 15px 20px 20px 20px;
+    margin: 20px 20px;
 }
 
 #training-cover-text h2 {
@@ -343,6 +344,7 @@ footer {
 #under8,#under11,#under13 {
     padding: 5px 5px;
 }
+
 /*Media query for large or landscape phones (570px and up)*/
 @media screen and (min-width:570px) {
 
