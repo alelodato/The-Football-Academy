@@ -609,7 +609,7 @@ hr {
     }
 
     #menu {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     #menu a:hover {
@@ -618,7 +618,7 @@ hr {
 
     #hero {
         height: 135vh;
-        margin-top: 90px;
+        margin-top: 80px;
     }
 
     video {
