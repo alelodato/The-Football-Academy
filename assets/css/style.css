@@ -190,11 +190,6 @@ video {
     padding: 0 20px;
 }
 
-hr {
-    border-top: 1px solid #ffffff;
-    margin: 5px 0;
-}
-
 #pitch-experience,
 #pro h5 {
     text-align: center;
@@ -234,27 +229,6 @@ hr {
     letter-spacing: 3px;
 }
 
-#contacts {
-    background: url(../images/Header-image.jpg) no-repeat center center/cover;
-    list-style-type: none;
-
-}
-
-#contacts i {
-    color: #ffffff;
-    font-size: 150%;
-    padding: 5px;
-}
-
-#contacts li {
-    color: #ffffff;
-    padding: 5px;
-    font-family: "Urbanist", sans-serif;
-    text-transform: uppercase;
-    font-size: 120%;
-    padding: 10px;
-}
-
 #contacts-cover-text {
     background-color: rgba(52, 139, 12, 0.616);
     height: 100%;
@@ -264,21 +238,50 @@ hr {
 footer {
     background: url(../images/Header-image.jpg) no-repeat center center/cover;
     box-shadow: 2px 0 0 2px #3a3a3a;
-    padding: 10px;
+    padding: 5px;
 }
 
-#socials {
+#socials-contacts {
     display: flex;
-    text-align: center;
-    padding: 20 0;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-#socials i {
-    font-size: 180%;
+#socials-contacts i {
+    font-size: 120%;
     padding: 5%;
     color: #ffffff;
+}
+
+#socials {
+    list-style-type: none;
+    display: flex;
+}
+
+#socials li {
+    padding: 15px;
+}
+
+#contacts {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#contacts i {
+    color: #ffffff;
+    font-size: 100%;
+    padding: 5px;
+}
+
+#contacts li {
+    color: #ffffff;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    font-size: 60%;
+}
+
+hr {
+    border-top: 1px solid #ffffff;
 }
 
 /*Training Page*/
@@ -456,11 +459,15 @@ footer {
     }
 
     #contacts {
-        font-size: 150%;
+        font-size: 250%;
     }
 
     #socials {
-        font-size: 150%;
+        font-size: 170%;
+    }
+
+    #socials li {
+        padding: 25px;
     }
 
     /*Training Page*/
@@ -566,12 +573,14 @@ footer {
         font-size: 5rem;
     }
 
+    /*Footer*/
+
     #contacts {
-        font-size: 200%;
+        font-size: 300%;
     }
 
     #socials {
-        font-size: 200%;
+        font-size: 250%;
     }
 
     /*Training Page*/
@@ -591,7 +600,7 @@ footer {
 @media screen and (min-width:1200px) {
 
     h1 {
-        font-size: 7rem;
+        font-size: 6rem;
         width: 200%;
     }
 
@@ -609,7 +618,7 @@ footer {
 
     #hero {
         height: 135vh;
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     video {
@@ -618,7 +627,7 @@ footer {
 
     #video-reasons {
         display: flex;
-        margin-top: -20px;
+        margin-top: -10px;
     }
 
     #reasons-text {
@@ -665,6 +674,19 @@ footer {
     #map h3 {
         font-size: 4rem;
         margin-top: -15px;
+    }
+
+    #socials li {
+        padding: 30px 50px 10px 80px; 
+    }
+
+    #contacts {
+        font-size: 320%;
+        letter-spacing: 2px;
+    }
+    
+    #socials-contacts i {
+        font-size: 90%;
     }
 
     /*Training Page*/
