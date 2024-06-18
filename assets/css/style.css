@@ -460,6 +460,14 @@ input {
 }
 
 /*Formdump Page*/
+
+#formdump-cover-text{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(30, 25, 25, 0.7);
+    margin: 350px 40px 0;
+}
+
 #formdump-hero {
     background: url(../images/Formdump-image.jpg) no-repeat center center/cover;
     height: 100%;
@@ -645,6 +653,20 @@ input {
 
     .join-button {
         font-size: 60%;
+    }
+
+    /*Formdump Page*/
+
+    #formdump-cover-text{
+    margin: 500px 70px 0;
+    }
+
+    #formdump-hero h2 {
+        font-size: 180%;
+    }
+
+    #formdump-hero p {
+        font-size: 130%;
     }
 
 
