@@ -41,7 +41,7 @@ header a {
 h1 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #ffffff;
 
 }
@@ -469,7 +469,7 @@ footer {
     }
 
     #training-hero {
-        height: 95vh;
+        height: 100%;
     }
 
     .free-training-button2 {
@@ -492,11 +492,11 @@ footer {
 @media screen and (min-width:992px) {
 
     header a {
-        width: 60%;
+        width: 65%;
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         width: 65%;
     }
 
@@ -514,7 +514,7 @@ footer {
 
     #hero {
         height: 135vh;
-        margin-top: 150px;
+        margin-top: 110px;
     }
 
     #cover-text {
@@ -576,15 +576,8 @@ footer {
 
     /*Training Page*/
 
-    main {
-        overflow-y: scroll;
-    }
-
     #training-cover-text {
         margin: 165px 35px 20px;
-    }
-
-    #training-cover-text {
         font-size: 170%;
     }
 
@@ -592,14 +585,6 @@ footer {
         height: 100%;
     }
 
-    .free-training-button2 {
-        width: 700px;
-        height: 120px;
-    }
-
-    .free-training-button2 a {
-        font-size: 350%;
-    }
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
@@ -662,13 +647,15 @@ footer {
 
     /*Training Page*/
     #training-cover-text {
-        background-color: rgba(193, 24, 21, 0.7);
-        font-size: 110%;
-        position: absolute;
-        width: 85%;
-        min-height: 120%;
-        padding: 5px 5px;
-        margin: 60px 80px 60px 90px;
+        margin: 102px 80px 60px 60px;
+    }
+
+    #training-hero {
+        height: 100%;
+    }
+
+    .free-training-button2 {
+        margin-bottom: 50px;
     }
 
 }
