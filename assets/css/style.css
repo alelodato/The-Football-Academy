@@ -735,8 +735,20 @@ input {
 
     /*Trial Page*/
     
+    #trial-cover-text {
+        height: 22vh;
+        margin: 160px 0 0 50px;
+        font-size: 190%;
+    }
 
-}
+    #trial-form-cover-text {
+        font-size: 190%;
+    }
+
+    .join-button {
+        width: 120px;
+        height: 50px;
+    }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
 @media screen and (min-width:1200px) {
