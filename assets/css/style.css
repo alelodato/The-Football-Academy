@@ -298,6 +298,7 @@ hr {
     width: 90%;
     padding: 5px 5px;
     margin: 10px 20px 20px;
+    height: 100%;
 }
 
 #training-cover-text h2 {
@@ -383,7 +384,7 @@ hr {
     width: 90%;
     padding: 5px 5px;
     margin: 10px 20px 20px;
-    height: 37vh;
+    height: 100%;
 }
 
 #trial-page-header {
@@ -410,7 +411,7 @@ hr {
     width: 90%;
     padding: 5px 5px;
     margin: 90px 20px 20px;
-    height: 28vh;
+    height: 100%;
 }
 
 #trial-form-cover-text h2 {
@@ -507,6 +508,14 @@ input {
 @media screen and (min-width:570px) {
 
     #map h3 {
+        font-size: 200%;
+    }
+
+    #socials {
+        font-size: 150%;
+    }
+
+    #contacts {
         font-size: 200%;
     }
 
@@ -622,15 +631,16 @@ input {
         font-size: 250%;
     }
 
+    /*Trial Page*/
+
     #trial-cover-text {
-        height: 27vh;
-        margin-top: 100px;
+        margin: 100px 0 0 40px;
         font-size: 170%;
     }
 
     #trial-form-cover-text {
-        height: 23vh;
         font-size: 170%;
+        margin-left: 40px;
     }
 
     .join-button {
@@ -652,7 +662,7 @@ input {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         width: 65%;
     }
 
@@ -661,7 +671,8 @@ input {
     }
 
     #menu {
-        font-size: 150%;
+        font-size: 100%;
+        margin-top: 10px;
     }
 
     #menu a:hover {
@@ -736,19 +747,20 @@ input {
     /*Trial Page*/
     
     #trial-cover-text {
-        height: 22vh;
-        margin: 160px 0 0 50px;
+        margin: 110px 0 0 50px;
         font-size: 190%;
     }
 
     #trial-form-cover-text {
         font-size: 190%;
+        margin: 50px 47px 50px;
     }
 
     .join-button {
         width: 120px;
         height: 50px;
     }
+}
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
 @media screen and (min-width:1200px) {
@@ -854,6 +866,16 @@ input {
 
     .free-training-button2 {
         margin-bottom: 50px;
+    }
+
+    /*Trial Page*/
+
+    #trial-cover-text {
+        margin: 120px 0 0 60px;
+    }
+
+    #trial-form-cover-text {
+        margin: 50px 0 90px 60px;
     }
 
 }
