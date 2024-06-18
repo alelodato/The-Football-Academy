@@ -706,6 +706,19 @@ input {
         margin-top: 110px;
     }
 
+    video {
+        width: 55%;
+    }
+
+    #video-reasons {
+        display: flex;
+        margin-top: -10px;
+    }
+
+    #reasons-text {
+    width: 45%;
+    }
+
     #cover-text {
         top: 150px;
         max-width: 65%;
@@ -726,13 +739,21 @@ input {
         font-size: 4rem;
     }
 
+    #pitch-experience h5 {
+        font-size: 100%;
+    }
+
+    #pro-awards h5 {
+        font-size: 100%;
+    }
+
     #pitch-experience p {
-        font-size: 200%;
+        font-size: 70%;
         text-align: left;
     }
 
     #pro-awards p {
-        font-size: 200%;
+        font-size: 70%;
         text-align: right;
     }
 
@@ -820,7 +841,7 @@ input {
 
     #reasons-text {
     width: 45%;
-}
+    }
 
     #cover-text {
         top: 150px;
