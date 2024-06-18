@@ -465,6 +465,44 @@ input {
     width: 100%;
 }
 
+#formdump-hero h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#formdump-hero p {
+    color: #ffffff;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    font-size: 100%;
+    text-align:center;
+}
+
+#homepage-button {
+    text-align: center;
+    padding: 10px;
+}
+
+.go-back-button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #248c17;
+    border: none;
+    font-size: 100%;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+}
+
+.go-back-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 /*Media query for large or landscape phones (570px and up)*/
 @media screen and (min-width:570px) {
 
