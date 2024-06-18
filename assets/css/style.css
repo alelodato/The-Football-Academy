@@ -74,7 +74,7 @@ nav {
 
 #nav-toggle:checked~nav {
     display: block;
-    background-color: rgb(48 114 18);
+    background: url(../images/Header-image.jpg) no-repeat center center/cover;
 }
 
 #nav-toggle {
