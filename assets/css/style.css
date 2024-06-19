@@ -451,12 +451,17 @@ input {
     width: 80px;
     height: 30px;
     border-radius: 10px;
-    background-color: #ff1010;
+    background-color: #352f2f;
     border: none;
-    color: #ffffff;
+    color: #f2eded;
     font-size: 80%;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
+}
+
+.join-button:hover {
+    background-color: #f2eded;
+    color: #352f2f;
 }
 
 /*Formdump Page*/
