@@ -113,11 +113,12 @@ main {
     padding: 5px 5px;
 }
 
-#cover-text>h4 {
+#cover-text>h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: #ffffff;
+    font-size: 100%;
 }
 
 #cover-text>h5 {
@@ -140,7 +141,7 @@ video {
     width: 100%;
 }
 
-#reasons>h2 {
+#reasons>h3 {
     text-align: center;
     font-size: 130%;
     text-transform: uppercase;
@@ -579,7 +580,7 @@ input {
         font-size: 180%;
     }
 
-    #reasons>h2 {
+    #reasons>h3 {
         font-size: 3rem;
     }
 
@@ -709,6 +710,10 @@ input {
     #hero {
         height: 135vh;
         margin-top: 110px;
+    }
+
+    #reasons>h3 {
+        font-size: 4rem;
     }
 
     video {
