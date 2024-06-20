@@ -46,6 +46,7 @@ h1 {
 
 }
 
+
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -533,6 +534,13 @@ input {
         font-size: 200%;
     }
 
+    /*Footer*/
+
+
+    #contacts {
+        font-size: 150%;
+    }
+
 
 }
 
@@ -783,7 +791,11 @@ input {
     }
 
     #socials {
-        font-size: 250%;
+        font-size: 185%;
+    }
+
+    #socials li {
+        padding: 20px 30px 10px 50px; 
     }
 
     /*Training Page*/
