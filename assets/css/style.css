@@ -201,34 +201,29 @@ video {
     text-align: center;
 }
 
-/*Trial Button Section*/
+/*Trial Link Section*/
 
-#trial-button {
+#trial-link {
     text-align: center;
-}
-
-.free-training-button {
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    background-color: #ff1010;
     border: none;
     margin-bottom: 20px;
-    text-decoration: none;
+    width: 100%;
+}
+
+#trial-link a {
+    text-decoration:underline;
     color: #ffffff;
-    font-size: 120%;
+    font-size: 180%;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
-    
+    text-align: center;
 }
 
-.free-training-button a {
-    
-}
-
-.free-training-button:hover {
-    background-color: #fafafa;
-    color: #3a3a3a;
+#trial-link a:hover {
+    color: #ad0d0d;
 }
 
 #map h3 {
@@ -239,6 +234,10 @@ video {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+iframe {
+    width: 100%;
 }
 
 #contacts-cover-text {
@@ -357,29 +356,6 @@ hr {
 
 #under8,#under11,#under13 {
     padding: 5px 5px;
-}
-
-/*Button*/
-#training-page-trial-button {
-    text-align: center;
-}
-
-.free-training-button2 {
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #ff1010;
-    border: none;
-    margin: 0 0 20px;
-}
-
-.free-training-button2 a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 180%;
-    font-family: "Urbanist", sans-serif;
-    text-transform: uppercase;
-
 }
 
 /*Trial Page*/
@@ -624,12 +600,7 @@ input {
         font-size: 3rem;
     }
 
-    .free-training-button {
-        width: 300px;
-        height: 80px;
-    }
-
-    .free-training-button a {
+    #trial-link a {
         font-size: 220%;
     }
 
@@ -794,6 +765,10 @@ input {
         font-size: 5rem;
     }
 
+    #trial-link a {
+        font-size: 250%;
+    }
+
     /*Footer*/
 
     #contacts {
@@ -910,6 +885,10 @@ input {
     #pitch-experience,
     #pro-awards {
         margin-bottom: 0;
+    }
+
+    #trial-link a {
+        font-size: 280%;
     }
 
     #map h3 {
