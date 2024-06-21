@@ -90,6 +90,10 @@ nav {
     color: #ffffff;
 }
 
+.nav-toggle-label i:hover {
+    color: #3a3a3a;
+}
+
 /*Main Content*/
 main {
     flex: 1 0 auto;
@@ -210,6 +214,10 @@ video {
     background-color: #ff1010;
     border: none;
     margin-bottom: 20px;
+}
+
+.free-training-button:hover {
+    background-color: #0a4f0e;
 }
 
 .free-training-button a {
