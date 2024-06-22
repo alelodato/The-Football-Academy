@@ -1,4 +1,4 @@
-
+               THE FOOTBALL ACADEMY
 
 The Football Academy website page is made for
 a youth football academy for kids from the age 
@@ -12,13 +12,10 @@ gives the opportunity to book a free training
 session to anyone interested on joining.
 The website is targeted towards parents looking
 for a football club to join for their kids.
-<!--
+
+![alt text](assets/images/the-fa-responsive-design.webp)
 
 
-Responsive design screenshot area
-
-
--->
                 Features
 • The Header
     •The Header is comprehensive of the academy logo,
