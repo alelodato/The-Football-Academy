@@ -93,6 +93,36 @@ for a football club to join for their kids.
 ![alt text](assets/images/formdump-screenshot.webp)
 
 
+TESTING
+
+     I tested that the website works on Google Chrome,Mozilla Firefox and Microsoft Edge;
+
+     I confirm that this project is responsive,looks good and function on all screen sizes using the devtools device toolbar;
+
+     I confirm that the navigation,header,reasons,free training link,footer,teams an training times,trial signup form and formdump page content are all readable and easy to understand;
+
+     I have confirm that the form works,requires entries in every field,will only accept an email in the email field,and the submit button works.
+
+
+BUGS
+
+    -Had to fix the formdump link to the form submit button as i was using an absolute path,and it 
+     wasn't working on my deployed page;
+     This is how the code looked before i fixed it:
+
+      <form id="signup-form" action="/formdump.html">
+
+    -Had to add an embedded code for the map as it wasn't working on the deployed page;
+     This is how i got the embedded code for my iframe map:
+
+![alt text](assets/images/embed-map-screenshot.webp)
+
+
+    I have no  unfixed bugs to report.
+
+
+
+
 
    
 
