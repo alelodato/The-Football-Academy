@@ -483,25 +483,21 @@ input {
     text-align:center;
 }
 
-#homepage-button {
+#homepage-link {
     text-align: center;
     padding: 10px;
 }
 
-.go-back-button {
-    width: 160px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #248c17;
-    border: none;
-    font-size: 100%;
+#homepage-link a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 120%;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
 }
 
-.go-back-button a {
-    text-decoration: none;
-    color: #ffffff;
+#homepage-link a:hover {
+    color:#086024;
 }
 
 
