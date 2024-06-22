@@ -48,6 +48,28 @@ for a football club to join for their kids.
 
 ![alt text](assets/images/reasons-screenshot.webp)   
 
+-Free Training Session Link:
+
+    The Free Training Session Link, is a link that takes the user directly to the training page,which is a page where a free training session can be booked by signing up a form.
+    The Free Training Session Link,is located underneath the Reasons Section,so that if the user is caught from the content of the homepage,is given the chance to make a first and important contact with the academy in an easy and intuitive way.
+    The Free Training Session Link,is featured also in the training page underneath the section regarding the teams and the training times.
+
+    ![alt text](assets/images/free-training-screenshot.webp)
+
+-Map Section:
+
+    The Map Section,features an iframe from Google Maps,showing the exact location of the football academy.
+    The map is interactive and the user can open it on full screen and navigate it;
+
+    ![alt text](assets/images/map-screenshot.webp)
+
+-Footer:
+
+    The Footer,comprehends two sections inside of it: a section with the social networks icons,that are linked to the Facebook,X,Instagram and Youtube websites,and a contacts section,with two icons and next to them the phone number and the email address of the academy.
+    For the Footer the same background image of the Header and Navbar was used;
+
+    ![alt text](assets/images/footer-screenshot.webp)
+
 
 
    
