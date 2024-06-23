@@ -833,6 +833,10 @@ input {
         margin-top: 80px;
     }
 
+    #cover-text h2 {
+        font-size: 120%;
+    }
+
     video {
         width: 55%;
     }

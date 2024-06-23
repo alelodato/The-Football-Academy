@@ -1,4 +1,4 @@
-                                        THE FOOTBALL ACADEMY
+                                        THE FOOTBALL ACADEMY                       By Alessio Lodato
 
 The Football Academy website page is made for
 a youth football academy for kids from the age 
@@ -22,7 +22,7 @@ for a football club to join for their kids.
 
     The website features a navigation menu,with direct link to the other pages of the website.
     The navigation menu,on the top right side of the page,is hidden and can be toggled with an icon (all icons are from  the "fontawesome" website) on mobiles and small screen devices,while it shows in columns for tablets and devices with larger screens.
-    All the navbar elements are shown in white color (hex:#fafafa) and the menu elements font is:"Urbanist"(all fonts are from "Google Fonts");
+    All the navbar elements are shown in white color (hex:#fafafa) and the menu elements font is:"Urbanist";
 
   ![alt text](assets/images/menu-icon-screenshot.webp)  
   ![alt text](assets/images/menu-screenshot.webp)
@@ -143,7 +143,7 @@ https://github.com/alelodato/The-Football-Academy
 
 CREDITS
     
-    All the icons used for the toggle menu,the reasons section and the footer,were taken from the "Font Awesome" website;
+    All the icons used for the toggle menu,the reasons section,the footer and the website favicon,were taken from the "Font Awesome" website;
 
     The font used in the website,"Bebas Neue" and "Urbanist",were taken from Google Font;
 
