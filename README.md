@@ -112,13 +112,43 @@ BUGS
 
       <form id="signup-form" action="/formdump.html">
 
-    -Had to add an embedded code for the map as it wasn't working on the deployed page;
-     This is how i got the embedded code for my iframe map:
+      After i removed the / from formdump.html,the link worked correctly;
+
+    -Had to add a code to  embed the iframe map as it wasn't working on the deployed page;
+     This is how i got the code:
 
 ![alt text](assets/images/embed-map-screenshot.webp)
 
 
     I have no  unfixed bugs to report.
+
+VALIDATOR TESTING
+
+    -HTML
+        No errors reported after testing through the W3C validator;
+
+    -CSS 
+        No errors reported after testing through the Jigsaw validator;
+
+    -Accessibility
+        I confirm that the colors and fonts chosen are easy to read and accessible by running it through Lightouse in devtools:
+
+![alt text](assets/images/lightouse-report.webp)      
+
+DEPLOYMENT
+
+    The site was deployed to GitHub pages.The steps to deploy are as follows:
+    I selected the main branch as the source,in the GitHub repository Settings tab,once i did that,i was provided with the link to the live website page,now available in the repository:
+https://github.com/alelodato/The-Football-Academy
+
+CREDITS
+    
+    All the icons used for the toggle menu,the reasons section and the footer,were taken from the "Font Awesome" website;
+
+    The font used in the website,"Bebas Neue" and "Urbanist",were taken from Google Font;
+
+    All the background images and the reasons section video,were taken from the "Pexels" website.
+
 
 
 
