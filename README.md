@@ -1,5 +1,13 @@
                                                               THE FOOTBALL ACADEMY
 
+
+
+    
+
+![alt text](assets/images/readme-images/wireframes-and-responsive-designs/the-fa-responsive-design.webp)
+
+Visit the deployed site: https://alelodato.github.io/The-Football-Academy/
+
 The Football Academy website page is made for
 a youth football academy for kids from the age 
 of 7 to the age of 13.
@@ -38,7 +46,7 @@ DESIGN
 
     -The Homepage Link colour when hovered is #086024;
 
-TYPOGRAPHY
+-TYPOGRAPHY
 
     All the fonts are imported from Google Fonts.
     The Fonts imported are "Bebas Neue" and "Urbanist".
@@ -48,19 +56,15 @@ TYPOGRAPHY
     -The font "Urbanist" is the font i used for the pages paragraphs,which are in unppercase,as tried to keep the content as minimal as possible,but due the importance of the informations they contain,i wanted to give them a better visual impact;  
     The navbar menu instead is in lowercase, as it shaped nice and has lovely clean lines.
 
-IMAGERY AND VIDEOS
+-IMAGERY AND VIDEOS
 
     As the website is for a football academy i wanted to use images of kids playing football,so to show the user that playing football is a fun and healthy activity to do for their kids,and eventually if a kid sees the website, i wanted them to imagine about being on pitch and playing, encouraging them to join the academy.
     As mentioned on the colour scheme section,i have also used background images of a football pitch itself for the header,for the navbar menu,for the reasons section and for the footer.
     For this purpose, i have used 5 different background images and video, all from the Pexels website.
 
-WIREFRAMES
+-WIREFRAMES
  
     Wireframes were created for mobile,tablet and desktop using Balsamiq.
-
-    
-
-![alt text](assets/images/the-fa-responsive-design.webp)
 
 FEATURES
 
@@ -72,23 +76,24 @@ FEATURES
 
     A background image from the Pexels website was used for the header and the toggle navigation menu:
 
-  ![alt text](assets/images/menu-icon-screenshot.webp)  
-  ![alt text](assets/images/menu-screenshot.webp)
+![alt text](assets/images/readme-images/menu-icon-screenshot.webp)
+![alt text](assets/images/readme-images/menu-screenshot.webp)
+
 
 -THE HEADER:
 
      The Header is the logo of the football academy and is shown on the top left part of the page.
      The logo is shown in "Bebas Neue" uppercase font,and in white color (hex:#fafafa); 
-     
-![alt text](assets/images/logo-screenshot.png)
+
+![alt text](assets/images/readme-images/logo-screenshot.png)
 
 -HERO IMAGE SECTION:
 
     The Hero image Section is comprehensive of the hero image,showing a kid in a football pitch,with on the side a cover text with an introduction of the football academy,which is the first youth football academy in the London's Norwood area;  
 
     The color of the cover text is rgba(193, 24, 21, 0.7):
- 
-![alt text](assets/images/hero-screenshot.webp)
+
+![alt text](assets/images/readme-images/hero-screenshot.webp)
 
 -REASONS SECTION:
     The Reasons section features two elements:
@@ -103,23 +108,21 @@ FEATURES
 
     The color of the cover text is rgba(52, 139, 12, 0.616):
 
-![alt text](assets/images/reasons-screenshot.webp)   
-
+![alt text](assets/images/readme-images/reasons-screenshot.webp)
 -FREE TRAINING SESSION:
 
     The Free Training Session Link, is a link that takes the user directly to the training page,which is a page where a free training session can be booked by signing up a form.
     The link,is located under the Reasons Section,so that if the user is caught from the content of the homepage,is given the chance to make a first and important contact with the academy in an easy,quick and intuitive way.
     The Free Training Session Link,is featured also in the training page under the section regarding the teams and the training times.
 
-![alt text](assets/images/free-training-screenshot.webp)
+![alt text](assets/images/readme-images/free-training-screenshot.webp)
 
 -MAP SECTION:
 
     The Map Section,features an iframe from Google Maps,showing the exact location of the football academy.
     The map is interactive and the user can open it on full screen and navigate it;
 
-![alt text](assets/images/map-screenshot.webp)
-
+![alt text](assets/images/readme-images/map-screenshot.webp)
 -FOOTER:
 
     The Footer,comprehends two sections inside it: 
@@ -130,7 +133,7 @@ FEATURES
 
     For the Footer was used the same background image of the Header and Navbar:
 
-![alt text](assets/images/footer-screenshot.webp)
+![alt text](assets/images/readme-images/footer-screenshot.webp)
 
 -TRAINING PAGE:
 
@@ -140,8 +143,7 @@ FEATURES
 For this page was used the same hero image as the homepage,with a cover text for the content to improve the contrast and accessibility.
 The color of the cover text is rgba(193, 24, 21, 0.9):
 
-![alt text](assets/images/training-screenshot.webp)
-
+![alt text](assets/images/readme-images/training-screenshot.webp)
 -TRIAL PAGE:
 
     The Trial Page,is for the user to signup a form that is needed to book a free training session.
@@ -151,7 +153,7 @@ The color of the cover text is rgba(193, 24, 21, 0.9):
     For the trial page a different background image was used,with cover text as a background for the content to improve contrast and accessibility.
     The cover text color is rgba(193, 24, 21, 0.9),same as the one for the training page:
 
-![alt text](assets/images/trial-screenshot.webp)
+![alt text](assets/images/readme-images/trial-screenshot.webp)
 
 -FORMDUMP PAGE:
  
@@ -161,7 +163,7 @@ The color of the cover text is rgba(193, 24, 21, 0.9):
     This page has another background image,and the content has a cover text as a background to improve contrast and accessibility.
     The color of the cover text is rgba(30, 25, 25, 0.7):
 
-![alt text](assets/images/formdump-screenshot.webp)
+![alt text](assets/images/readme-images/formdump-screenshot.webp)
 
 TESTING
 
@@ -186,7 +188,7 @@ BUGS
     -Had to add a code to  embed the iframe map as it wasn't working on the deployed page;
      This is how i got the code:
 
-![alt text](assets/images/embed-map-screenshot.webp)
+![alt text](assets/images/readme-images/map-screenshot.webp)
 
     I have no  unfixed bugs to report.
 
@@ -201,7 +203,7 @@ VALIDATOR TESTING
     -Accessibility
         I confirm that the colors and fonts chosen are easy to read and accessible by running it through Lightouse in devtools:
 
-![alt text](assets/images/lightouse-report.webp)      
+![alt text](assets/images/readme-images/lightouse-report.webp)
 
 DEPLOYMENT
 
