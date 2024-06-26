@@ -230,10 +230,10 @@ video {
     text-align: center;
     color: #ffffff;
     padding: 15px 15px 0px 15px;
-    font-size: 160%;
+    font-size: 180%;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 iframe {
