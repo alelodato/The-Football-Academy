@@ -172,6 +172,10 @@ The color of the cover text is rgba(193, 24, 21, 0.9):
 
 ![alt text](assets/images/readme-images/formdump-screenshot.webp)
 
+TECHNOLOGIES USED
+
+    -BALSAMIQ
+
 TESTING
 
      I tested that the website works on Google Chrome,Mozilla Firefox and Microsoft Edge;
