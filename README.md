@@ -29,7 +29,7 @@ As the website is made for a football academy,i wanted to keep green and white a
 Where possible then, i used a white text on a green background, and where more contrast was needed i used a cover text as background for my content.
 All the cover texts are transparent so that the background images are still visible.
 
-* For all the text context and icons,i have used the colour #fafafa;
+* For all the text content and icons,i have used the colour #fafafa;
     
 * For the Hero Image cover text i have used the colour rgba (193, 24, 21, 0.7);
 
