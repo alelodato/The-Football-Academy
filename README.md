@@ -65,6 +65,13 @@ DESIGN
 -WIREFRAMES
  
     Wireframes were created for mobile,tablet and desktop using Balsamiq.
+![alt text](assets/images/readme-images/wireframes-and-responsive-designs/homepage-wireframe.webp) ![alt text](assets/images/readme-images/wireframes-and-responsive-designs/tablet-homepage-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/iphone-homepage-wireframe.webp)
+
+![alt text](assets/images/readme-images/wireframes-and-responsive-designs/training-page-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/tablet-training-page-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/iphone-training-page-wireframe.webp)
+
+![alt text](assets/images/readme-images/wireframes-and-responsive-designs/trial-page-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/tablet-trail-page-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/iphone-trial-page-wireframe.webp)
+
+![alt text](assets/images/readme-images/wireframes-and-responsive-designs/formdump-page-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/tablet-formdump-wireframe.webp)![alt text](assets/images/readme-images/wireframes-and-responsive-designs/iphone-formdump-page-wireframe.webp)
 
 FEATURES
 
