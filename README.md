@@ -1,4 +1,4 @@
-                                           THE FOOTBALL ACADEMY
+                                                         THE FOOTBALL ACADEMY
 
 The Football Academy website page is made for
 a youth football academy for kids from the age 
