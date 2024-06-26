@@ -436,14 +436,14 @@ input {
     border-radius: 10px;
     background-color: #352f2f;
     border: none;
-    color: #f2eded;
+    color: #fafafa;
     font-size: 80%;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
 }
 
 .join-button:hover {
-    background-color: #f2eded;
+    background-color: #fafafa;
     color: #352f2f;
 }
 
@@ -873,7 +873,7 @@ input {
     }
 
     #pro-awards p {
-        font-size: 80%;
+        font-size: 77%;
         text-align: right;
     }
 

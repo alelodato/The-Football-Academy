@@ -13,6 +13,53 @@ session to anyone interested on joining.
 The website is targeted towards parents looking
 for a football club to join for their kids.
 
+DESIGN
+
+-COLOUR SCHEME:
+
+    As the website is made for a football academy,i wanted to keep green and white as the main colours of it,recalling the coulours of a football pitch.
+    Where possible then, i used a white text on a green background, and where more contrast was needed i used a cover text as background for my content.
+    All the cover texts are transparent so that the background images are still visible.
+
+    -For all the text context and icons,i have used the colour #fafafa;
+    
+    -For the Hero Image cover text i have used the colour rgba (193, 24, 21, 0.7);
+
+    -For the Reason section cover text i have used the colour rgba (52, 139, 12, 0.616);
+
+    -The Free Training Session Link colour when hovered is #ad0d0d;
+
+    -For the training and trial pages cover texts i have used the colour rgba (193, 24, 21, 0.9),which is the same as the Hero image cover text,but with less transparency to improve the contrast;
+
+    -For the form submit button of the trial page,i have used the colour #352f2f for the background and #fafafa for the text inside of it.
+    The text and background colours swap when the button is hovered;
+
+    -For the Formdump page cover text i have used the color rgba(30, 25, 25, 0.7);
+
+    -The Homepage Link colour when hovered is #086024;
+
+TYPOGRAPHY
+
+    All the fonts are imported from Google Fonts.
+    The Fonts imported are "Bebas Neue" and "Urbanist".
+
+    -The font "Bebas Neue" is a font that i think looks great for headlines,therefore i used it for the logo of the academy and all the page and section titles,sans-serif,in uppercase and with letter-spacing;
+
+    -The font "Urbanist" is the font i used for the pages paragraphs,which are in unppercase,as tried to keep the content as minimal as possible,but due the importance of the informations they contain,i wanted to give them a better visual impact;  
+    The navbar menu instead is in lowercase, as it shaped nice and has lovely clean lines.
+
+IMAGERY AND VIDEOS
+
+    As the website is for a football academy i wanted to use images of kids playing football,so to show the user that playing football is a fun and healthy activity to do for their kids,and eventually if a kid sees the website, i wanted them to imagine about being on pitch and playing, encouraging them to join the academy.
+    As mentioned on the colour scheme section,i have also used background images of a football pitch itself for the header,for the navbar menu,for the reasons section and for the footer.
+    For this purpose, i have used 5 different background images and video, all from the Pexels website.
+
+WIREFRAMES
+ 
+    Wireframes were created for mobile,tablet and desktop using Balsamiq.
+
+    
+
 ![alt text](assets/images/the-fa-responsive-design.webp)
 
 FEATURES
