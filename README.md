@@ -53,7 +53,7 @@ The Fonts imported are "Bebas Neue" and "Urbanist".
 
 * The font "Bebas Neue" is a font that i think looks great for headlines,therefore i used it for the logo of the academy and all the page and section titles,sans-serif,in uppercase and with letter-spacing;
 
-* The font "Urbanist" is the font i used for the pages paragraphs,which are in unppercase,as tried to keep the content as minimal as possible,but due the importance of the informations they contain,i wanted to give them a better visual impact;  
+* The font "Urbanist" is the font i used for the pages paragraphs,which are in uppercase,as tried to keep the content as minimal as possible,but due the importance of the informations they contain,i wanted to give them a better visual impact;  
 The navbar menu instead is in lowercase, as it shaped nice and has lovely clean lines.
 
 ### IMAGERY AND VIDEOS
@@ -79,7 +79,7 @@ Wireframes were created for mobile,tablet and desktop using Balsamiq.
 ### NAVIGATION:
 
 The website features a navigation menu,with direct link to the other pages of the website.
-The navigation menu,on the top right side of the page,is hidden and can be toggled with an icon (all       icons  are from  the "fontawesome" website) on mobiles and small screen devices,while it shows in columns     for tablets and devices with larger screens.  
+The navigation menu,on the top right side of the page,is hidden and can be toggled with an icon (all icons  are from  the "fontawesome" website) on mobiles and small screen devices,while it shows in columns for tablets and devices with larger screens.  
 All the navbar elements are shown in white color (hex:#fafafa) and the menu elements font is:"Urbanist";
 
 A background image from the Pexels website was used for the header and the toggle navigation menu:
@@ -185,9 +185,11 @@ The color of the cover text is rgba(30, 25, 25, 0.7):
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
+* [Pexels](https://www.pexels.com/) - To get all the images and videos needed for the website.
+
 * [Image Resizer](https://imageresizer.com/) To compress,resize,and convert images to webp format.
 
-* [Font Awesome](https://fontawesome.com/) To get  the website icons.
+* [Font Awesome](https://fontawesome.com/) To get the website icons.
 
 * [Favicon.io](https://favicon.io/) To create the website favicon.
 
@@ -231,6 +233,7 @@ Full testing was performed on the following devices:
   * ASUS Vivobook S14
 * Mobile Devices:
   * iPhone 14.
+  * Samsung S22
 
   Each device tested the site using the following browsers:
 
@@ -307,13 +310,33 @@ The steps to deploy are as follows:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [alelodato/The-Football-Academy](https://github.com/alelodato/The-Football-Academy)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [alelodato/The-Football-Academy](https://github.com/alelodato/The-Football-Academy)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
 ## CREDITS
     
-All the icons used for the toggle menu,the reasons section,the footer and the website favicon,were taken from the "Font Awesome" website;
+All the icons used for the toggle menu,the reasons section,the footer and the website favicon,were taken from the [Font Awesome](https://fontawesome.com/) website;
 
-The font used in the website,"Bebas Neue" and "Urbanist",were taken from Google Font;
+The font used in the website,"Bebas Neue" and "Urbanist",were taken from [Google Font](https://fonts.google.com/);
 
-All the background images and the reasons section video,were taken from the "Pexels" website.
+All the background images and the reasons section video,were taken from the [Pexels](https://www.pexels.com/) website.
 
 
 
