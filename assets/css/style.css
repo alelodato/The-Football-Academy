@@ -109,7 +109,7 @@ main {
 
 #cover-text {
     /*Final rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(193, 24, 21, 0.7);
+    background-color: rgba(193, 24, 21, 0.8);
     font-size: 110%;
     position: absolute;
     right: 0;
@@ -665,13 +665,17 @@ input {
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width:992px) {
 
+    main {
+        margin-top: 0;
+    }
+
     header a {
         width: 65%;
     }
 
     h1 {
         font-size: 3.5rem;
-        width: 65%;
+        padding: 20px;
     }
 
     nav {
@@ -809,6 +813,7 @@ input {
     h1 {
         font-size: 6rem;
         width: 200%;
+        padding: 20px;
     }
 
     nav {
@@ -825,7 +830,7 @@ input {
 
     #hero {
         height: 135vh;
-        margin-top: 80px;
+        margin-top: 150px;
     }
 
     #cover-text h2 {
