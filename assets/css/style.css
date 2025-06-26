@@ -650,7 +650,7 @@ input {
 @media screen and (min-width:992px) {
 
     main {
-        margin-top: 0;
+        margin-top: 165px;
     }
 
     header a {
@@ -688,9 +688,13 @@ input {
         width: 55%;
     }
 
-    #video-reasons {
+    #img-reasons {
         display: flex;
         margin-top: -10px;
+    }
+
+    #img-reasons img {
+        width: 15%;
     }
 
     #reasons-text {
@@ -796,7 +800,6 @@ input {
 
     h1 {
         font-size: 6rem;
-        width: 200%;
         padding: 20px;
     }
 
@@ -825,7 +828,7 @@ input {
         width: 55%;
     }
 
-    #video-reasons {
+    #img-reasons {
         display: flex;
         margin-top: -10px;
     }
