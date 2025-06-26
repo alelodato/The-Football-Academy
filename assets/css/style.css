@@ -1,6 +1,7 @@
 /*Google Fonts imported Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes fade-in-normal {0% { opacity: 0; } 100% { opacity: 1;} }
 
 /*Wildcard Selector*/
 * {
@@ -695,6 +696,22 @@ input {
 
     #img-reasons img {
         width: 15%;
+    }
+
+    #pitch-reasons {
+        animation: fade-in-normal 3s ease 0s 1 normal none;
+    }
+
+    #coach-reasons {
+        animation: fade-in-normal 3s ease 2s 1 normal none; 
+    }
+
+    #pitches {
+        animation: fade-in-normal 3s ease 0s 1 normal none;
+    }
+
+    #experience {
+        animation: fade-in-normal 3s ease 2s 1 normal none;
     }
 
     #reasons-text {
