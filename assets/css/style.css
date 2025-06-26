@@ -101,30 +101,6 @@ main {
 }
 
 /*Hero Section*/
-#hero {
-    background: url("../images/website-images/main-background.webp") no-repeat center center/cover;
-    height: 400px;
-    width: 100%;
-}
-
-#cover-text {
-    /*Final rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(193, 24, 21, 0.8);
-    font-size: 110%;
-    position: absolute;
-    right: 0;
-    width: 40%;
-    min-height: 80px;
-    padding: 5px 5px;
-}
-
-#cover-text>h2 {
-    font-family: "Bebas Neue", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #ffffff;
-    font-size: 100%;
-}
 
 #cover-text>h5 {
     color: #ffffff;
@@ -153,6 +129,14 @@ video {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
+}
+
+#reasons-text h5 {
+    padding: 5px;
+}
+
+#reasons-text p {
+    padding: 5px;
 }
 
 #reasons-trial-map-cover-text {
