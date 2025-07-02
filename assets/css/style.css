@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @keyframes fade-in-normal {0% { opacity: 0; } 100% { opacity: 1;} }
+@keyframes slide-left-normal {0% { transform: translateX(0); } 100% { transform: translateX(-100px);} }
 
 /*Wildcard Selector*/
 * {
@@ -110,6 +111,17 @@ main {
 
 /*Reasons Section*/
 
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 #reasons-trial {
     background: url(../images/website-images/reasons-Background-image.webp) no-repeat center center/cover;
 }
@@ -119,17 +131,14 @@ main {
     margin-bottom: 20px;
 }
 
-video {
-    width: 100%;
-}
-
-#reasons>h3 {
-    text-align: center;
+#reasons > h3 {
+    text-align: left;
     font-size: 130%;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
+    padding: 5px 15px 5px;
 }
 
 #reasons-text h5 {
@@ -189,19 +198,14 @@ video {
 /*Trial Link Section*/
 
 #trial-link {
-    text-align: center;
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 20px;
-    width: 100%;
+    text-align: right;
+    padding: 20px;
 }
 
 #trial-link a {
     text-decoration:underline;
     color: #ffffff;
-    font-size: 180%;
+    font-size: 1rem;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -211,8 +215,14 @@ video {
     color: #ad0d0d;
 }
 
+#trial-map {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 #map h3 {
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     padding: 15px 15px 0px 15px;
     font-size: 180%;
@@ -223,6 +233,7 @@ video {
 
 iframe {
     width: 100%;
+    height: 350px;
 }
 
 /*Footer*/
@@ -577,7 +588,7 @@ input {
     }
 
     #trial-link a {
-        font-size: 220%;
+        font-size: 1.5rem;
     }
 
     #contacts {
@@ -651,7 +662,7 @@ input {
 @media screen and (min-width:992px) {
 
     main {
-        margin-top: 165px;
+        margin-top: 110px;
     }
 
     header a {
@@ -681,7 +692,7 @@ input {
         margin-top: 110px;
     }
 
-    #reasons>h3 {
+    #reasons > h3 {
         font-size: 4rem;
     }
 
@@ -699,19 +710,15 @@ input {
     }
 
     #pitch-reasons {
-        animation: fade-in-normal 3s ease 0s 1 normal none;
     }
 
     #coach-reasons {
-        animation: fade-in-normal 3s ease 2s 1 normal none; 
     }
 
     #pitches {
-        animation: fade-in-normal 3s ease 0s 1 normal none;
     }
 
     #experience {
-        animation: fade-in-normal 3s ease 2s 1 normal none;
     }
 
     #reasons-text {
@@ -765,10 +772,6 @@ input {
         font-size: 5rem;
     }
 
-    #trial-link a {
-        font-size: 250%;
-    }
-
     /*Footer*/
 
     #contacts {
@@ -818,6 +821,10 @@ input {
     h1 {
         font-size: 6rem;
         padding: 20px;
+    }
+
+    main {
+        margin-top: 165px;
     }
 
     nav {
@@ -889,10 +896,6 @@ input {
     #pitch-experience,
     #pro-awards {
         margin-bottom: 0;
-    }
-
-    #trial-link a {
-        font-size: 280%;
     }
 
     #map h3 {
