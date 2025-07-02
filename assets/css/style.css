@@ -141,6 +141,11 @@ main {
     padding: 5px 15px 5px;
 }
 
+#img-reasons img {
+    width: 24%;
+    height: 200px;
+}
+
 #reasons-text h5 {
     padding: 5px;
 }
@@ -561,27 +566,28 @@ input {
         font-size: 180%;
     }
 
+    #reasons {
+        padding-top: 90px;
+    }
+
     #reasons>h3 {
         font-size: 3rem;
     }
 
-    #pitch-experience h5 {
-        text-align: left;
-        font-size: 190%;
+    #img-reasons {
+        display: flex;
+        padding-top: 20px;
     }
 
-    #pro-awards h5 {
-        text-align: right;
-        font-size: 190%;
+    #img-reasons img {
+    width: 15%;
+    height: 350px;
     }
 
-    #pitch-experience p {
-        font-size: 160%;
+    #reasons-text {
+        font-size: 0.5rem;
     }
 
-    #pro-awards p {
-        font-size: 160%;
-    }
 
     #map h3 {
         font-size: 3rem;
@@ -692,6 +698,10 @@ input {
         margin-top: 110px;
     }
 
+    #reasons {
+        padding-top: 20px;
+    }
+
     #reasons > h3 {
         font-size: 4rem;
     }
@@ -707,22 +717,12 @@ input {
 
     #img-reasons img {
         width: 15%;
-    }
-
-    #pitch-reasons {
-    }
-
-    #coach-reasons {
-    }
-
-    #pitches {
-    }
-
-    #experience {
+        height: 450px;
     }
 
     #reasons-text {
     width: 45%;
+    font-size: 1rem;
     }
 
     #cover-text {
@@ -769,7 +769,7 @@ input {
     }
 
     #map h3 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     /*Footer*/
