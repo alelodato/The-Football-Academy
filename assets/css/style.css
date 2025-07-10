@@ -99,7 +99,6 @@ nav {
 /*Main Content*/
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
 }
 
 /*Hero Section*/
@@ -127,8 +126,8 @@ main {
 }
 
 #reasons {
+    padding-top: 50px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 #reasons > h3 {
@@ -138,7 +137,7 @@ main {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
-    padding: 5px 15px 5px;
+    padding: 5px 0 0 15px;
 }
 
 #img-reasons img {
@@ -177,12 +176,11 @@ main {
 }
 
 #pitch-experience>div {
-    margin-bottom: 20px;
-    padding: 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 #pro-awards>div {
-    padding: 0 20px 20px;
+    padding: 0 20px 0 20px;
 }
 
 #pitch-experience,
@@ -238,7 +236,7 @@ main {
 
 iframe {
     width: 100%;
-    height: 350px;
+    height: 320px;
 }
 
 /*Footer*/
@@ -567,7 +565,7 @@ input {
     }
 
     #reasons {
-        padding-top: 90px;
+        padding-top: 100px;
     }
 
     #reasons>h3 {
@@ -576,7 +574,6 @@ input {
 
     #img-reasons {
         display: flex;
-        padding-top: 20px;
     }
 
     #img-reasons img {
@@ -585,7 +582,7 @@ input {
     }
 
     #reasons-text {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
 
@@ -667,10 +664,6 @@ input {
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width:992px) {
 
-    main {
-        margin-top: 110px;
-    }
-
     header a {
         width: 65%;
     }
@@ -699,7 +692,7 @@ input {
     }
 
     #reasons {
-        padding-top: 20px;
+        padding-top: 140px;
     }
 
     #reasons > h3 {
@@ -712,12 +705,11 @@ input {
 
     #img-reasons {
         display: flex;
-        margin-top: -10px;
     }
 
     #img-reasons img {
         width: 15%;
-        height: 450px;
+        height: 380px;
     }
 
     #reasons-text {
@@ -746,21 +738,21 @@ input {
     }
 
     #pitch-experience h5 {
-        font-size: 100%;
+        font-size: 0.9rem;
     }
 
     #pro-awards h5 {
-        font-size: 100%;
+        font-size: 0.9rem;
     }
 
     #pitch-experience p {
-        font-size: 70%;
         text-align: left;
+        font-size: 0.7rem;
     }
 
     #pro-awards p {
-        font-size: 70%;
         text-align: right;
+        font-size: 0.7rem;
     }
 
     #pitch-experience,
@@ -775,7 +767,7 @@ input {
     /*Footer*/
 
     #contacts {
-        font-size: 300%;
+        font-size: 2.3rem;
     }
 
     #socials {
@@ -819,12 +811,8 @@ input {
 @media screen and (min-width:1200px) {
 
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
         padding: 20px;
-    }
-
-    main {
-        margin-top: 165px;
     }
 
     nav {
@@ -854,7 +842,6 @@ input {
 
     #img-reasons {
         display: flex;
-        margin-top: -10px;
     }
 
     #reasons-text {
@@ -875,22 +862,14 @@ input {
         display: flex;
     }
 
-    #pitch-experience h5 {
-        font-size: 110%;
-    }
-
-    #pro-awards h5 {
-        font-size: 110%;
-    }
-
     #pitch-experience p {
-        font-size: 80%;
         text-align: left;
+        font-size: 0.8rem;
     }
 
     #pro-awards p {
-        font-size: 77%;
         text-align: right;
+        font-size: 0.8rem;
     }
 
     #pitch-experience,
@@ -908,7 +887,7 @@ input {
     }
 
     #contacts {
-        font-size: 320%;
+        font-size: 2.3rem;
         letter-spacing: 2px;
     }
     
