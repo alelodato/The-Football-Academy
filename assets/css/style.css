@@ -32,7 +32,6 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 header a {
@@ -92,10 +91,6 @@ nav {
     color: #ffffff;
 }
 
-.nav-toggle-label i:hover {
-    color: #3a3a3a;
-}
-
 /*Main Content*/
 main {
     flex: 1 0 auto;
@@ -131,8 +126,8 @@ main {
 }
 
 #reasons > h3 {
-    text-align: left;
-    font-size: 130%;
+    text-align: center;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
@@ -231,10 +226,10 @@ main {
 }
 
 #map h3 {
-    text-align: left;
+    text-align: center;
     color: #ffffff;
     padding: 5px 15px 0px 15px;
-    font-size: 180%;
+    font-size: 1.8rem;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -242,7 +237,7 @@ main {
 
 iframe {
     width: 100%;
-    height: 320px;
+    height: 200px;
 }
 
 /*Footer*/
@@ -533,23 +528,17 @@ input {
     h1 {
         font-size: 3rem;
         width: 120%;
+        padding: 5px;
     }
 
     nav {
         position: relative;
-        width: 100%;
+        width: 40%;
         justify-content: end;
-        padding: 0 1rem;
+        padding: 5px;
         box-shadow: 0 0 #3a3a3a;
-        top: 100%;
-        margin-bottom: auto;
         display: flex;
-        font-size: 125%;
-    }
-
-    #menu {
-        font-size: 130%;
-        text-align: left;
+        font-size: 1rem;
     }
 
     .nav-toggle-label {
@@ -571,7 +560,7 @@ input {
     }
 
     #reasons {
-        padding-top: 100px;
+        padding-top: 130px;
     }
 
     #reasons-trial {
@@ -589,20 +578,26 @@ input {
     #img-reasons img {
         display: block;
         width: 15%;
-        height: 350px;
+        height: 320px;
     }
 
     #reasons-text {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+    }
+
+    #reasons-text h5 {
+        font-size: 0.6rem;
     }
 
 
     #map h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        text-align: left;
     }
 
     #trial-link button {
-        margin-right: 80px;
+        text-align: right;
+        margin: 10px;
     }
 
     #trial-link a {
@@ -614,16 +609,20 @@ input {
     }
 
     #contacts {
-        font-size: 250%;
-        padding-left: 400px;
+        font-size: 2rem;
+        padding-left: 100px;
     }
 
     #socials {
-        font-size: 170%;
+        font-size: 1.2rem;
     }
 
     #socials-contacts p {
         font-size: 1.5rem;
+    }
+
+    iframe {
+    height: 350px;
     }
 
     /*Training Page*/
@@ -717,6 +716,7 @@ input {
 
     #reasons > h3 {
         font-size: 4rem;
+        text-align: left;
     }
 
     video {
@@ -786,6 +786,11 @@ input {
 
     #map h3 {
         font-size: 4rem;
+    }
+
+    iframe {
+    width: 100%;
+    height: 320px;
     }
 
     /*Footer*/
