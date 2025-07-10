@@ -122,7 +122,7 @@ main {
 }
 
 #reasons-trial {
-    background: url(../images/website-images/reasons-Background-image.webp) no-repeat center center/cover;
+    background: url(../images/website-images/pro-reasons.jpeg) no-repeat center center/cover;
 }
 
 #reasons {
@@ -141,8 +141,7 @@ main {
 }
 
 #img-reasons img {
-    width: 24%;
-    height: 200px;
+    display: none;
 }
 
 #reasons-text h5 {
@@ -154,7 +153,7 @@ main {
 }
 
 #reasons-trial-map-cover-text {
-    background-color: rgba(52, 139, 12, 0.616);
+    background-color: rgb(0 0 0 / 37%);
     height: 100%;
 }
 
@@ -183,13 +182,13 @@ main {
     padding: 0 20px 0 20px;
 }
 
-#pitch-experience,
-#pro-awards>h5 {
-    font-size: 100%;
+#pitch-experience h5,
+#pro-awards h5 {
+    font-size: 0.8rem;
 }
 
 #reasons-cover-text p {
-    font-size: 85%;
+    font-size: 0.7rem;
     padding: 0 20px;
 }
 
@@ -201,33 +200,40 @@ main {
 /*Trial Link Section*/
 
 #trial-link {
-    text-align: right;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#trial-link button {
+    background: #fafafa00;
+    border-radius: 15px;
+    border: solid #fafafa;
 }
 
 #trial-link a {
-    text-decoration:underline;
+    text-decoration:none;
     color: #ffffff;
     font-size: 1rem;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
     text-align: center;
+    padding: 20px;
 }
 
-#trial-link a:hover {
-    color: #ad0d0d;
+#trial-link button:hover {
+    background: #ad0d0d;
 }
 
 #trial-map {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 #map h3 {
     text-align: left;
     color: #ffffff;
-    padding: 15px 15px 0px 15px;
+    padding: 5px 15px 0px 15px;
     font-size: 180%;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
@@ -244,6 +250,7 @@ footer {
     background: url(../images/website-images/header-image.webp) no-repeat center center/cover;
     box-shadow: 2px 0 0 2px #3a3a3a;
     padding: 5px;
+    font-family: "Urbanist", sans-serif;
 }
 
 #socials-contacts {
@@ -252,9 +259,8 @@ footer {
     list-style-type: none;
 }
 
-#socials-contacts i {
-    font-size: 120%;
-    padding: 5%;
+#socials-contacts a {
+    padding: 5px;
     color: #ffffff;
 }
 
@@ -263,10 +269,11 @@ footer {
     display: flex;
 }
 
-#socials li {
-    padding: 15px;
+#socials-contacts p {
+    color: #fafafa;
+    font-size: 0.7rem;
+    padding: 20px 40px 0 0;
 }
-
 #contacts {
     list-style-type: none;
     margin-top: 5px;
@@ -553,9 +560,8 @@ input {
         border-bottom: 1px solid #ffffff;
     }
 
-    #hero {
-        height: 115vh;
-        margin-top: 5vh;
+    #reasons-trial-map-cover-text {
+        background-color: rgba(52, 139, 12, 0.616);
     }
 
     #cover-text {
@@ -568,6 +574,10 @@ input {
         padding-top: 100px;
     }
 
+    #reasons-trial {
+    background: url(../images/website-images/reasons-Background-image.webp) no-repeat center center/cover;
+}
+
     #reasons>h3 {
         font-size: 3rem;
     }
@@ -577,8 +587,9 @@ input {
     }
 
     #img-reasons img {
-    width: 15%;
-    height: 350px;
+        display: block;
+        width: 15%;
+        height: 350px;
     }
 
     #reasons-text {
@@ -590,20 +601,29 @@ input {
         font-size: 3rem;
     }
 
+    #trial-link button {
+        margin-right: 80px;
+    }
+
     #trial-link a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    #trial-map {
+        flex-direction: row-reverse;
     }
 
     #contacts {
         font-size: 250%;
+        padding-left: 400px;
     }
 
     #socials {
         font-size: 170%;
     }
 
-    #socials li {
-        padding: 25px;
+    #socials-contacts p {
+        font-size: 1.5rem;
     }
 
     /*Training Page*/
@@ -760,6 +780,10 @@ input {
         margin-bottom: 15px;
     }
 
+    #trial-link button {
+        margin-right: 90px;
+    }
+
     #map h3 {
         font-size: 4rem;
     }
@@ -768,14 +792,11 @@ input {
 
     #contacts {
         font-size: 2.3rem;
+        padding-left: 400px;
     }
 
-    #socials {
-        font-size: 185%;
-    }
-
-    #socials li {
-        padding: 20px 30px 10px 50px; 
+    #socials-contacts p {
+        font-size: 1.5rem;
     }
 
     /*Training Page*/
@@ -877,22 +898,23 @@ input {
         margin-bottom: 0;
     }
 
+    #trial-link button {
+        margin-right: 100px;
+    }
+
     #map h3 {
         font-size: 4rem;
         margin-top: -15px;
     }
 
-    #socials li {
-        padding: 30px 50px 10px 80px; 
-    }
-
     #contacts {
         font-size: 2.3rem;
         letter-spacing: 2px;
+        padding-left: 500px;
     }
     
     #socials-contacts i {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     /*Training Page*/
