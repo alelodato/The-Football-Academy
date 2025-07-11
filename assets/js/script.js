@@ -1,5 +1,17 @@
 window.addEventListener("load", () => {
-  const items = document.querySelectorAll(".fade-in");
+  const allItems = document.querySelectorAll(".fade-in");
+  let items;
+  if (window.innerWidth <= 576) {
+    items = Array.from(allItems).filter((el) => {
+      if (window.innerWidth <= 576 && el.classList.contains("desktop-only")) {
+        el.remove();
+        return false;
+      }
+      return true;
+    });
+  } else {
+    items = Array.from(allItems);
+  }
   items.forEach((item, index) => {
     setTimeout(() => {
       item.classList.add("visible");

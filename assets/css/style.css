@@ -259,8 +259,8 @@ main {
 #map h3 {
     text-align: center;
     color: #ffffff;
-    padding: 5px 15px 0px 15px;
-    font-size: 1.8rem;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.5rem;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -315,7 +315,7 @@ footer {
     color: #ffffff;
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
-    font-size: 65%;
+    font-size: 0.7rem;
 }
 
 hr {
@@ -557,9 +557,8 @@ input {
 @media screen and (min-width:768px) {
 
     h1 {
-        font-size: 3rem;
-        width: 120%;
-        padding: 5px;
+        font-size: 3.2rem;
+        padding: 15px 5px 5px;
     }
 
     nav {
@@ -742,11 +741,11 @@ input {
     }
 
     #reasons {
-        padding-top: 140px;
+        padding-top: 120px;
     }
 
     #reasons > h3 {
-        font-size: 4rem;
+        font-size: 3.2rem;
         padding: 5px 0 0 15px;
         text-align: left;
     }
@@ -794,7 +793,7 @@ input {
     }
 
     #pro-awards h5 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     #pitch-experience p {
@@ -812,12 +811,8 @@ input {
         margin-bottom: 15px;
     }
 
-    #trial-link button {
-        margin-right: 90px;
-    }
-
     #map h3 {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
 
     iframe {
@@ -827,8 +822,8 @@ input {
 
     /*Footer*/
 
-    #contacts {
-        font-size: 2.3rem;
+    #contacts li {
+        font-size: 0.9rem;
         padding-left: 300px;
     }
 
@@ -906,6 +901,10 @@ input {
         display: flex;
     }
 
+    #reasons h3 {
+        padding-top: 35px;
+    }
+
     #reasons-text {
     width: 45%;
     }
@@ -947,8 +946,8 @@ input {
         font-size: 4rem;
     }
 
-    #contacts {
-        font-size: 2.3rem;
+    #contacts li {
+        font-size: 1rem;
         letter-spacing: 2px;
         padding-left: 500px;
     }
