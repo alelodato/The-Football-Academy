@@ -44,6 +44,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
+    padding-top: 5px;
 
 }
 
@@ -224,6 +225,31 @@ main {
     background: #ad0d0d;
 }
 
+#trial-link2 {
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+#trial-link2 button {
+    background: #fafafa00;
+    border-radius: 15px;
+    border: solid #fafafa;
+}
+
+#trial-link2 a {
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+#trial-link2 button:hover {
+    background: #ad0d0d;
+}
+
 #trial-map {
     display: flex;
     flex-direction: column;
@@ -308,7 +334,7 @@ hr {
     background-color: rgba(193, 24, 21, 0.9);
     font-size: 110%;
     width: 90%;
-    padding: 5px 5px;
+    padding: 45px 5px 5px;
     margin: 10px 20px 20px;
     height: 100%;
 }
@@ -632,7 +658,7 @@ input {
 
     /*Training Page*/
     #training-cover-text {
-        margin: 91px 35px 20px;
+        margin: 60px 35px 20px;
     }
 
     #training-hero {
@@ -803,7 +829,7 @@ input {
 
     #contacts {
         font-size: 2.3rem;
-        padding-left: 400px;
+        padding-left: 300px;
     }
 
     #socials-contacts p {
@@ -836,6 +862,10 @@ input {
     .join-button {
         width: 120px;
         height: 50px;
+    }
+
+    #formdump-cover-text {
+        margin-top: 200px;
     }
 }
 
