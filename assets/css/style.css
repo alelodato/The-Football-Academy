@@ -132,7 +132,7 @@ main {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
-    padding: 5px 0 0 15px;
+    padding: 10px 5px 0 5px;
 }
 
 #img-reasons img {
@@ -179,6 +179,11 @@ main {
 
 #pitch-experience h5,
 #pro-awards h5 {
+    font-size: 0.8rem;
+}
+
+#pitch-experience p,
+#pro-awards p {
     font-size: 0.8rem;
 }
 
@@ -366,7 +371,7 @@ hr {
     background-color: rgba(193, 24, 21, 0.9);
     font-size: 110%;
     width: 90%;
-    padding: 5px 5px;
+    padding: 50px 5px 10px 5px;
     margin: 10px 20px 20px;
     height: 100%;
 }
@@ -386,15 +391,15 @@ hr {
     font-family: "Urbanist", sans-serif;
     text-transform: uppercase;
     font-size: 65%;
-    padding-top: 5px;
+    padding: 5px;
 }
 
 #trial-form-cover-text {
     background-color: rgba(193, 24, 21, 0.9);
     font-size: 110%;
     width: 90%;
-    padding: 5px 5px;
-    margin: 90px 20px 20px;
+    padding: 10px 5px 5px;
+    margin: 30px 20px 20px;
     height: 100%;
 }
 
@@ -560,7 +565,7 @@ input {
     }
 
     #reasons {
-        padding-top: 130px;
+        padding-top: 100px;
     }
 
     #reasons-trial {
@@ -716,6 +721,7 @@ input {
 
     #reasons > h3 {
         font-size: 4rem;
+        padding: 5px 0 0 15px;
         text-align: left;
     }
 
